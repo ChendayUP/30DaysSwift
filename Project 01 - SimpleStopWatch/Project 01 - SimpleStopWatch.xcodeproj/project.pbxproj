@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0418BDF01DA9D31600D1E3E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0418BDEF1DA9D31600D1E3E4 /* AppDelegate.swift */; };
-		0418BDF21DA9D31600D1E3E4 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0418BDF11DA9D31600D1E3E4 /* MasterViewController.swift */; };
-		0418BDF41DA9D31600D1E3E4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0418BDF31DA9D31600D1E3E4 /* DetailViewController.swift */; };
-		0418BDF71DA9D31600D1E3E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0418BDF51DA9D31600D1E3E4 /* Main.storyboard */; };
-		0418BDF91DA9D31600D1E3E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0418BDF81DA9D31600D1E3E4 /* Assets.xcassets */; };
-		0418BDFC1DA9D31600D1E3E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0418BDFA1DA9D31600D1E3E4 /* LaunchScreen.storyboard */; };
+		0418BE151DAB183900D1E3E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0418BE141DAB183900D1E3E4 /* AppDelegate.swift */; };
+		0418BE171DAB183900D1E3E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0418BE161DAB183900D1E3E4 /* ViewController.swift */; };
+		0418BE1A1DAB183900D1E3E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0418BE181DAB183900D1E3E4 /* Main.storyboard */; };
+		0418BE1C1DAB183900D1E3E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0418BE1B1DAB183900D1E3E4 /* Assets.xcassets */; };
+		0418BE1F1DAB183900D1E3E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0418BE1D1DAB183900D1E3E4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0418BDEC1DA9D31600D1E3E4 /* the30DaysSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = the30DaysSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0418BDEF1DA9D31600D1E3E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0418BDF11DA9D31600D1E3E4 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		0418BDF31DA9D31600D1E3E4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		0418BDF61DA9D31600D1E3E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0418BDF81DA9D31600D1E3E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0418BDFB1DA9D31600D1E3E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0418BDFD1DA9D31600D1E3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0418BE111DAB183900D1E3E4 /* Project 01 - SimpleStopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 01 - SimpleStopWatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0418BE141DAB183900D1E3E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0418BE161DAB183900D1E3E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0418BE191DAB183900D1E3E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0418BE1B1DAB183900D1E3E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0418BE1E1DAB183900D1E3E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0418BE201DAB183900D1E3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0418BDE91DA9D31500D1E3E4 /* Frameworks */ = {
+		0418BE0E1DAB183900D1E3E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,74 +35,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0418BDE31DA9D31500D1E3E4 = {
+		0418BE081DAB183900D1E3E4 = {
 			isa = PBXGroup;
 			children = (
-				0418BDEE1DA9D31600D1E3E4 /* the30DaysSwift */,
-				0418BDED1DA9D31600D1E3E4 /* Products */,
+				0418BE131DAB183900D1E3E4 /* Project 01 - SimpleStopWatch */,
+				0418BE121DAB183900D1E3E4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0418BDED1DA9D31600D1E3E4 /* Products */ = {
+		0418BE121DAB183900D1E3E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0418BDEC1DA9D31600D1E3E4 /* the30DaysSwift.app */,
+				0418BE111DAB183900D1E3E4 /* Project 01 - SimpleStopWatch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0418BDEE1DA9D31600D1E3E4 /* the30DaysSwift */ = {
+		0418BE131DAB183900D1E3E4 /* Project 01 - SimpleStopWatch */ = {
 			isa = PBXGroup;
 			children = (
-				0418BDEF1DA9D31600D1E3E4 /* AppDelegate.swift */,
-				0418BDF11DA9D31600D1E3E4 /* MasterViewController.swift */,
-				0418BDF31DA9D31600D1E3E4 /* DetailViewController.swift */,
-				0418BDF51DA9D31600D1E3E4 /* Main.storyboard */,
-				0418BDF81DA9D31600D1E3E4 /* Assets.xcassets */,
-				0418BDFA1DA9D31600D1E3E4 /* LaunchScreen.storyboard */,
-				0418BDFD1DA9D31600D1E3E4 /* Info.plist */,
+				0418BE141DAB183900D1E3E4 /* AppDelegate.swift */,
+				0418BE161DAB183900D1E3E4 /* ViewController.swift */,
+				0418BE181DAB183900D1E3E4 /* Main.storyboard */,
+				0418BE1B1DAB183900D1E3E4 /* Assets.xcassets */,
+				0418BE1D1DAB183900D1E3E4 /* LaunchScreen.storyboard */,
+				0418BE201DAB183900D1E3E4 /* Info.plist */,
 			);
-			path = the30DaysSwift;
+			path = "Project 01 - SimpleStopWatch";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0418BDEB1DA9D31500D1E3E4 /* the30DaysSwift */ = {
+		0418BE101DAB183900D1E3E4 /* Project 01 - SimpleStopWatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0418BE001DA9D31600D1E3E4 /* Build configuration list for PBXNativeTarget "the30DaysSwift" */;
+			buildConfigurationList = 0418BE231DAB183900D1E3E4 /* Build configuration list for PBXNativeTarget "Project 01 - SimpleStopWatch" */;
 			buildPhases = (
-				0418BDE81DA9D31500D1E3E4 /* Sources */,
-				0418BDE91DA9D31500D1E3E4 /* Frameworks */,
-				0418BDEA1DA9D31500D1E3E4 /* Resources */,
+				0418BE0D1DAB183900D1E3E4 /* Sources */,
+				0418BE0E1DAB183900D1E3E4 /* Frameworks */,
+				0418BE0F1DAB183900D1E3E4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = the30DaysSwift;
-			productName = the30DaysSwift;
-			productReference = 0418BDEC1DA9D31600D1E3E4 /* the30DaysSwift.app */;
+			name = "Project 01 - SimpleStopWatch";
+			productName = "Project 01 - SimpleStopWatch";
+			productReference = 0418BE111DAB183900D1E3E4 /* Project 01 - SimpleStopWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0418BDE41DA9D31500D1E3E4 /* Project object */ = {
+		0418BE091DAB183900D1E3E4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = myself;
 				TargetAttributes = {
-					0418BDEB1DA9D31500D1E3E4 = {
+					0418BE101DAB183900D1E3E4 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 4XSKYJHA27;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0418BDE71DA9D31500D1E3E4 /* Build configuration list for PBXProject "the30DaysSwift" */;
+			buildConfigurationList = 0418BE0C1DAB183900D1E3E4 /* Build configuration list for PBXProject "Project 01 - SimpleStopWatch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,55 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 0418BDE31DA9D31500D1E3E4;
-			productRefGroup = 0418BDED1DA9D31600D1E3E4 /* Products */;
+			mainGroup = 0418BE081DAB183900D1E3E4;
+			productRefGroup = 0418BE121DAB183900D1E3E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0418BDEB1DA9D31500D1E3E4 /* the30DaysSwift */,
+				0418BE101DAB183900D1E3E4 /* Project 01 - SimpleStopWatch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0418BDEA1DA9D31500D1E3E4 /* Resources */ = {
+		0418BE0F1DAB183900D1E3E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0418BDFC1DA9D31600D1E3E4 /* LaunchScreen.storyboard in Resources */,
-				0418BDF91DA9D31600D1E3E4 /* Assets.xcassets in Resources */,
-				0418BDF71DA9D31600D1E3E4 /* Main.storyboard in Resources */,
+				0418BE1F1DAB183900D1E3E4 /* LaunchScreen.storyboard in Resources */,
+				0418BE1C1DAB183900D1E3E4 /* Assets.xcassets in Resources */,
+				0418BE1A1DAB183900D1E3E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0418BDE81DA9D31500D1E3E4 /* Sources */ = {
+		0418BE0D1DAB183900D1E3E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0418BDF41DA9D31600D1E3E4 /* DetailViewController.swift in Sources */,
-				0418BDF21DA9D31600D1E3E4 /* MasterViewController.swift in Sources */,
-				0418BDF01DA9D31600D1E3E4 /* AppDelegate.swift in Sources */,
+				0418BE171DAB183900D1E3E4 /* ViewController.swift in Sources */,
+				0418BE151DAB183900D1E3E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0418BDF51DA9D31600D1E3E4 /* Main.storyboard */ = {
+		0418BE181DAB183900D1E3E4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0418BDF61DA9D31600D1E3E4 /* Base */,
+				0418BE191DAB183900D1E3E4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0418BDFA1DA9D31600D1E3E4 /* LaunchScreen.storyboard */ = {
+		0418BE1D1DAB183900D1E3E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0418BDFB1DA9D31600D1E3E4 /* Base */,
+				0418BE1E1DAB183900D1E3E4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0418BDFE1DA9D31600D1E3E4 /* Debug */ = {
+		0418BE211DAB183900D1E3E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		0418BDFF1DA9D31600D1E3E4 /* Release */ = {
+		0418BE221DAB183900D1E3E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,27 +257,27 @@
 			};
 			name = Release;
 		};
-		0418BE011DA9D31600D1E3E4 /* Debug */ = {
+		0418BE241DAB183900D1E3E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4XSKYJHA27;
-				INFOPLIST_FILE = the30DaysSwift/Info.plist;
+				INFOPLIST_FILE = "Project 01 - SimpleStopWatch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = swift.the30DaysSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Project-01---SimpleStopWatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		0418BE021DA9D31600D1E3E4 /* Release */ = {
+		0418BE251DAB183900D1E3E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4XSKYJHA27;
-				INFOPLIST_FILE = the30DaysSwift/Info.plist;
+				INFOPLIST_FILE = "Project 01 - SimpleStopWatch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = swift.the30DaysSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Project-01---SimpleStopWatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -290,24 +286,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0418BDE71DA9D31500D1E3E4 /* Build configuration list for PBXProject "the30DaysSwift" */ = {
+		0418BE0C1DAB183900D1E3E4 /* Build configuration list for PBXProject "Project 01 - SimpleStopWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0418BDFE1DA9D31600D1E3E4 /* Debug */,
-				0418BDFF1DA9D31600D1E3E4 /* Release */,
+				0418BE211DAB183900D1E3E4 /* Debug */,
+				0418BE221DAB183900D1E3E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0418BE001DA9D31600D1E3E4 /* Build configuration list for PBXNativeTarget "the30DaysSwift" */ = {
+		0418BE231DAB183900D1E3E4 /* Build configuration list for PBXNativeTarget "Project 01 - SimpleStopWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0418BE011DA9D31600D1E3E4 /* Debug */,
-				0418BE021DA9D31600D1E3E4 /* Release */,
+				0418BE241DAB183900D1E3E4 /* Debug */,
+				0418BE251DAB183900D1E3E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0418BDE41DA9D31500D1E3E4 /* Project object */;
+	rootObject = 0418BE091DAB183900D1E3E4 /* Project object */;
 }
